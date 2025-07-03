@@ -1,5 +1,11 @@
+#include <stdio.h> 
+#include<conio.h> 
+#include <ctype.h>
+#include <string.h> 
+void encipher(); 
 
-#include <stdio.h> #include<conio.h> #include <ctype.h> #include <string.h> void encipher(); void decipher(); void main()
+void decipher(); 
+void main()
 {
 int choice;
 clrscr(); while(1) {
